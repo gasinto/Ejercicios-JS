@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #131415;
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap:2rem;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 50%;
+}
+
+#id-pizza{
+    width: 50%;
+    height: 3rem;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: 3px solid crimson;
+}
+
+.buscador button{
+    width: 3rem;
+    height: 3rem;
+    background-color: crimson;
+    border: none;
+}
+
+.message{
+    color: #fafafa;
+}
